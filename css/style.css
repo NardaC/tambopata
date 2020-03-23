@@ -590,7 +590,7 @@ ul,li{
 ***/
 
 .main-header{
-	position:relative;
+	position:absolute;
 	left:0px;
 	top:0px;
 	/*background:#ffffff;*/
@@ -974,6 +974,33 @@ ul,li{
 	display:none;
 }
 
+/*** 
+
+====================================================================
+	Home
+====================================================================
+
+***/
+#home .texto-video{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center
+	
+}
+#home .texto-video h1{
+	color: #fff;
+	text-align: center;
+	font-weight: 700
+}
+#home .texto-video button{
+	color: #fff;
+	background-color: rgba(116, 143, 50, 1);
+	padding: .6rem;
+	margin-top: 1rem
+
+}
 
 /*** 
 
@@ -982,6 +1009,7 @@ ul,li{
 ====================================================================
 
 ***/
+
 
 .header-style-two{
 	position:relative;
