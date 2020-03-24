@@ -489,3 +489,35 @@
 		padding-left:0px;	
 	}
 }
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px){
+	/*Header*/
+	.auto-container{
+		padding:0px !important;
+	}
+	.facebook{
+		display: none;
+	}
+	.instagram{
+		 display: none;
+	}
+	.twitter{
+		display:none;
+	}
+
+	.main-header .header-upper .nav-outer{
+		margin-top: 0px;
+	}
+	.main-header .header-upper .logo, .header-style-two .header-top .logo{
+		margin-bottom: 0px!important;
+	}
+    .navbar-toggle .icon-bar{
+		background-color: white;
+	}
+	.navbar-toggle{
+		margin-top: -5rem;
+	}
+}
